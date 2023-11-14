@@ -1,7 +1,7 @@
 // In order for bootstrap to work, you need to import it like below
 // uncomment the import statements and refresh the DOM to see!
-// @import "~@fortawesome/fontawesome-free/css/all.min.css";
-// @import "~bootstrap/scss/bootstrap";
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+@import '~bootstrap/scss/bootstrap';
 
 body {
   background-color: rgb(31, 31, 31);
@@ -14,7 +14,6 @@ body {
   color: rgb(194, 194, 194);
   background-color: rgb(44, 44, 44);
   text-align: center;
-  
 }
 
 #students {
@@ -45,15 +44,15 @@ body {
 }
 
 .card-img-overlay::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background-image: radial-gradient(#2B1F47, #001022);
-  opacity: .7;
+  background-image: radial-gradient(#2b1f47, #001022);
+  opacity: 0.7;
   z-index: 1;
 }
 
@@ -79,4 +78,4 @@ body {
   .container {
     flex-direction: column;
   }
-} 
+}
